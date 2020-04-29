@@ -1,0 +1,150 @@
+
+h1 {
+  font-family: 'Marck Script', cursive;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: red;
+  border-width: 50px;
+  width: 10%;}
+
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+
+
+/* title */
+
+#title {
+  background-color: #ff5722;
+  color: #fff;
+  text-align: center;
+  padding: 10% 15% 2%;
+}
+
+.p-title {
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
+  padding: 3%;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 50px;
+}
+
+.bird {
+  position: absolute;
+  left: 30px;
+  width: 5%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 30px;
+}
+
+.sun {
+  position: absolute;
+  width: 20%;
+  left: 490px;
+  bottom: 100px;
+}
+
+.img-title {
+  position: relative;
+  z-index: 1;
+}
+
+/* Profile */
+
+#profile {
+  text-align: center;
+  padding: 7% 15%;
+  margin-bottom: 5%;
+}
+
+.icon {
+  margin-bottom: 5px;
+}
+
+.icon:hover {
+  color: #ff5722;
+}
+
+/* Project */
+
+#project {
+  text-align: center;
+  background-color: #ff5722;
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+.projects-image {
+  width: 30%;
+}
+.projects-text {
+  padding: 3% 10%;
+}
+
+/* Certificate */
+
+#certificate {
+  text-align: center;
+}
+
+.certificate-list {
+  padding: 3% 15%
+}
+
+.td2 {
+  padding-left: 10%
+}
+
+.link {
+  color: #ff5722;
+  font-family: font-family: 'Barlow', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  background-color: #ff5722;
+  color: #fff;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.icon-footer {
+  padding: 3% 2%;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media (max-width: 1028px) {
+  .cloud1 {
+    position: relative;
+    left: 50%;
+  }
+  .img-title {
+    position: relative;
+    right: 30%;
+  }
+  .sun {
+    position: relative;
+    top: 30%;
+    left: 20%;
+  }
+}
